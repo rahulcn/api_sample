@@ -1,0 +1,9 @@
+== README
+
+* Run Tests
+	bundle exec rspec
+
+* API Endpoints
+	curl -X GET 'http://localhost:3000/users'
+	curl -X POST -H "Content-Type: application/json" -d '{ "user": { "email": "rahul@gmail.com", "first_name": "Rahul", "last_name": "Chandra" } }' http://localhost:3000/users
+	curl -X GET 'http://localhost:3000/users/1'
